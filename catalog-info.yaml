@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-111
+  description: Python app that displays the time - python-app-111
+  annotations:
+    github.com/project-slug: alipendix-org/python-app-111
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
